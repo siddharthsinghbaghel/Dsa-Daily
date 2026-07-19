@@ -18,3 +18,22 @@ class solution{
 
     }
 }
+
+// second way to remove duplicates from sorted array
+
+class solution{
+    public:
+
+    int removeduplicates(vector<int> &nums ){
+        int k = 0;
+
+        for(int j =1; j<nums.size(); j++){
+            if(nums[k] != nums[j]){
+                k++;
+                swap(nums[k], nums[j]); // nums[k] = nums[j];
+            }
+        }
+        return k+1; // nums.resize(k+1); 
+                    // return nums;
+    }
+}
