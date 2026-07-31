@@ -97,7 +97,7 @@ ListNode* oddEvenList(ListNode* head)
 
 int main()
 {
-    ListNode* head = NULL;
+    ListNode* head = NULL;z
 
     insertAtEnd(head,1);
     insertAtEnd(head,2);
