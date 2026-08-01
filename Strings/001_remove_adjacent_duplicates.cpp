@@ -21,3 +21,6 @@ int main(){
 
     cout<<removeDuplicate(s)<<endl;
 }
+
+//input s = "abbaca"
+//output = "ca"
