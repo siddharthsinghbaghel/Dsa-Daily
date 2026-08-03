@@ -15,3 +15,5 @@ class solution{
         return true;
     }
 }
+
+//input: s = "anagram", t = "nagaram"
