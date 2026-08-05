@@ -18,3 +18,5 @@ class solution{
         return count;
     }
 }
+//input: s = "abc"
+//output: 3
