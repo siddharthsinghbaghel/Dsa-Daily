@@ -11,7 +11,7 @@ class solution{
             if(sum == k){
                 count++;
             }
-
+            // check if there exists a prefix sum such that sum - oldSum = k
             if(mp.find(sum - k) != mp.end()){
                 count += mp[sum - k];
             }
